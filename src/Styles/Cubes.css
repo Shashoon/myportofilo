@@ -1,82 +1,99 @@
 .cubes-dock {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 35%;
-    height: 350px;
-    padding: 80px;
-    margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 35%;
+  height: 350px;
+  padding: 80px;
+  margin-bottom: 100px;
 }
 
 .cube-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .cube {
-    width: 95px;
-    height: 95px;
-    border-radius: 55px;
-    box-shadow: 5px 5px 20px #a7a7a7;
+  width: 95px;
+  height: 95px;
+  border-radius: 55px;
+  box-shadow: 5px 5px 20px #a7a7a7;
 }
 
 .cube-title {
-    font-size: 20px;
-    padding-top: 3px;
+  font-size: 20px;
+  padding-top: 3px;
 }
 
 #react {
-    background-image: url('../Images/react.png');
-    background-size: cover;
-    background-color: #00d8ff;
+  background-image: url("../Images/react.png");
+  background-size: cover;
+  background-color: #00d8ff;
 }
 
 #javascript {
-    background-image: url('../Images/javascript.png');
-    background-size: cover;
-    background-color: #f7df1e;
+  background-image: url("../Images/javascript.png");
+  background-size: cover;
+  background-color: #f7df1e;
 }
 
 #html {
-    background-image: url('../Images/html.png');
-    background-size: cover;
-    background-color: #e34f26;
+  background-image: url("../Images/html.png");
+  background-size: cover;
+  background-color: #e34f26;
 }
 
 #css {
-    background-image: url('../Images/css.png');
-    background-size: cover;
-    background-color: #264de4;
+  background-image: url("../Images/css.png");
+  background-size: cover;
+  background-color: #264de4;
 }
 
 #bootstrap {
-    background-image: url('../Images/bootstrap.png');
-    background-size: cover;
+  background-image: url("../Images/bootstrap.png");
+  background-size: cover;
 }
 
 #nodejs {
-    background-image: url('../Images/nodejs1.png');
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../Images/nodejs1.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #mongodb {
-    background-image: url('../Images/mongodb.png');
-    background-size: cover;
+  background-image: url("../Images/mongodb.png");
+  background-size: cover;
 }
 
-#java {
-    background-image: url('../Images/java.png');
-    background-size: 65%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: chocolate;
+#csharp {
+  background-image: url("../Images/csharp.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: chocolate;
 }
 
 #github {
-    background-image: url('../Images/github.png');
-    background-size: cover;
+  background-image: url("../Images/github.png");
+  background-size: cover;
 }
 
+.slidershow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}

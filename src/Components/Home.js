@@ -11,10 +11,12 @@ const Home = () => {
                 <div className='titles'>
                     <h1>Sharon Mazcka</h1>
                     <p>Full Stack Developer</p>
-                    <div className='button'>About Me</div>
+                    <div className='button'>
+                        <a href='#contact' className=''>Contact Me</a>
+                    </div>
                 </div>
-                <Cubes />
 
+                <Cubes />
             </div>
         </section>
     )

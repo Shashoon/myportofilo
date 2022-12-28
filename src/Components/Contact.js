@@ -4,14 +4,14 @@ import '../Styles/Contact.css';
 const Contact = () => {
 
     return (
-        <footer id='contact'>
+        <footer id='footer' className='contact'>
             <h2>Contact Me</h2>
             <form action="https://formsubmit.co/Shashoonn@gmail.com" method="POST">
-                <input type="email" name="email" placeholder='Your Email' required />
+                <input type="text" name="email" placeholder='Your Email' required />
                 <br />
                 <input type="text" name="message" placeholder='Write your message..' required />
                 <br />
-                <button type="submit" className='button'>Send</button>
+                <div type="submit" className='btn'>Send</div>
             </form>
             <div className='social-buttons'>
                 <div><a className='social' href='https://twitter.com/_Shashoo'>
