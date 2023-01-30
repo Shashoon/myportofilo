@@ -26,74 +26,75 @@
   padding-top: 3px;
 }
 
-#react {
-  background-image: url("../Images/react.png");
-  background-size: cover;
-  background-color: #00d8ff;
-}
-
-#javascript {
-  background-image: url("../Images/javascript.png");
-  background-size: cover;
-  background-color: #f7df1e;
-}
-
-#html {
-  background-image: url("../Images/html.png");
-  background-size: cover;
-  background-color: #e34f26;
-}
-
-#css {
-  background-image: url("../Images/css.png");
-  background-size: cover;
-  background-color: #264de4;
-}
-
-#bootstrap {
-  background-image: url("../Images/bootstrap.png");
-  background-size: cover;
-}
-
-#nodejs {
-  background-image: url("../Images/nodejs1.png");
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#mongodb {
-  background-image: url("../Images/mongodb.png");
-  background-size: cover;
-}
-
-#csharp {
-  background-image: url("../Images/csharp.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: chocolate;
-}
-
-#github {
-  background-image: url("../Images/github.png");
-  background-size: cover;
-}
-
-.slidershow {
-  margin: 0 auto;
+.container {
+  width: 90%;
+  height: 13%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
   overflow: hidden;
-  max-width: 500px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #161723;
+  box-shadow: -1px 5px 15px black;
 }
 
-.slider {
-  white-space: nowrap;
-  transition: ease 1000ms;
-}
-
-.slide {
-  display: inline-block;
-  height: 400px;
+.wrapper {
+  top: 0;
+  left: 100%;
   width: 100%;
-  border-radius: 40px;
+  padding: 8px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  animation: marquee 30s linear infinite;
+}
+
+.wrapper svg, img {
+  width: 10%;
+  height: 10%;
+  padding-right: 30px;
+}
+
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+.marquee2 {
+  animation-delay: 15s;
+}
+b {
+  padding-left: 10px;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
 }

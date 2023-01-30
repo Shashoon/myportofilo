@@ -5,28 +5,40 @@ const Projects = () => {
 
     return (
         <section className='sub-section' id='projects'>
+            <div className='line'></div>
             <h2>Projects</h2>
             <div className='projects-dock'>
-                <div className='project-card'>
-                    <img className='project-image' src={require('../Images/crypto-dashboard.png')} alt='something' />
-                    <h3>Crypto Dashboard</h3>
-                    <p className='subtext'>A Crypto currency dashboard. includes - crypto news, coins live tracker, coins converter</p>
-                    <hr />
-                    <p className='subtext'><a href='https://github.com/iSharonMazcka' className='project-link'>View here</a></p>
+                <div className="card">
+                    <img className='card-image' src={require('../Images/wordle.png')} />
+                    <div className="card-overlay">
+                        <div className="overlay-text">
+                            <h3>Wordle</h3>
+                            <p>Clone of the famous online game - 'Wordle'.</p>
+                            <a href="https://shashoon.github.io/wordle/" target='_blank' className="button">View Here</a>
+                        </div>
+                    </div>
                 </div>
-                <div className='project-card'>
-                    <img className='project-image' src={require('../Images/Untitled1.png')} alt='something' />
-                    <h3>Sudoku Fight</h3>
-                    <p className='subtext'>Web app for playing sudoku online.</p>
-                    <hr />
-                    <p className='subtext'><a href='https://sudoku-fight-4b4be.web.app/' className='project-link'>View here</a></p>
+                <div className="card">
+                    <img className='card-image' src={require('../Images/rootix.png')} />
+                    <div className="card-overlay">
+                        <div className="overlay-text">
+                            <h3>Rootix</h3>
+                            <p>
+                                Rootix is a website made to plan a route that goes through several destinations the fastest way.
+                            </p>
+                            <a href="https://shashoon.github.io/rootix/" target='_blank' className="button">View Here</a>
+                        </div>
+                    </div>
                 </div>
-                <div className='project-card'>
-                    <img className='project-image' src={require('../Images/crypto-dashboard.png')} alt='something' />
-                    <h3>Crypto Dashboard</h3>
-                    <p className='subtext'>A Crypto currency dashboard. includes - crypto news, coins live tracker, coins converter</p>
-                    <hr />
-                    <p className='subtext'><a href='https://github.com/iSharonMazcka' className='project-link'>View here</a></p>
+                <div className="card">
+                    <img className='card-image' src={require('../Images/crypto-dashboard.png')} />
+                    <div className="card-overlay">
+                        <div className="overlay-text">
+                            <h3>Crypto Dashboard</h3>
+                            <p>A Crypto currency dashboard. includes - crypto news, coins live tracker, coins converter</p>
+                            <a href="#" className="button">View Here</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
