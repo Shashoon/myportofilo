@@ -35,7 +35,7 @@ const Projects = () => {
                     <div className="card-overlay">
                         <div className="overlay-text">
                             <h3>Crypto Dashboard</h3>
-                            <p>A Crypto currency dashboard. includes - crypto news, coins live tracker, coins converter</p>
+                            <p>Crypto currency dashboard. includes - crypto news, coins live tracker and coins converter.</p>
                             <a href="#" className="button">View Here</a>
                         </div>
                     </div>

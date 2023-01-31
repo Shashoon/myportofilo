@@ -1,5 +1,5 @@
 .home {
-  height: 90vh;
+  height: 80vh;
   background-color: #101226;
   color: white;
   font-size: 40px;
@@ -48,10 +48,9 @@ li a:hover {
 
 .titles {
   margin-left: 4vw;
-  margin-bottom: 300px;
-  margin-top: 160px;
+  margin-bottom: 200px;
+  margin-top: 85px;
 }
-
 
 h1 {
   font-size: 9vw;
@@ -65,16 +64,19 @@ p {
 }
 
 .titles p {
-  color: rgb(193 198 45 / 97%);;
+  color: rgb(193 198 45 / 97%);
 }
 
 .button {
   background-color: rgb(43 106 238 / 75%);
   border-radius: 100px;
-  box-shadow: rgb(44 81 187 / 20%) 0 -25px 18px -14px inset, rgb(44 99 187 / 15%) 0 1px 2px, rgb(44 46 187 / 15%) 0 2px 4px, rgb(44 59 187 / 15%) 0 4px 8px, rgb(44 187 178 / 15%) 0 8px 16px, rgb(44 187 99 / 15%) 0 16px 32px;
+  box-shadow: rgb(44 81 187 / 20%) 0 -25px 18px -14px inset,
+    rgb(44 99 187 / 15%) 0 1px 2px, rgb(44 46 187 / 15%) 0 2px 4px,
+    rgb(44 59 187 / 15%) 0 4px 8px, rgb(44 187 178 / 15%) 0 8px 16px,
+    rgb(44 187 99 / 15%) 0 16px 32px;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -83,7 +85,6 @@ p {
   font-size: 1rem;
   user-select: none;
 }
-
 
 .button:hover {
   background-color: rgb(255 255 255 / 89%);
@@ -138,5 +139,6 @@ p {
 }
 
 .social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+    hue-rotate(346deg) brightness(95%) contrast(86%);
 }

@@ -4,6 +4,10 @@
   padding: 80px;
 }
 
+.info {
+  padding-top: 20vh;
+}
+
 h2 {
   font-size: 40px;
   text-align: center;
@@ -17,5 +21,4 @@ h2 {
   .section {
     padding: 15px;
   }
-
 }
