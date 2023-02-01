@@ -7,11 +7,11 @@ const Contact = () => {
         <footer id='contact' className='contact'>
             <h2>Contact Me</h2>
             <form action="https://formsubmit.co/Shashoonn@gmail.com" method="POST">
-                <input type="text" name="email" placeholder='Your Email' required />
+                <input type="email" name="email" placeholder='Your Email' required />
                 <br />
                 <input type="text" name="message" placeholder='Write your message..' required />
                 <br />
-                <div type="submit" className='button'>Text Me Here</div>
+                <button type="submit" className='button'>Send</button>
             </form>
             <div className='social-buttons'>
                 <div><a className='social' href='https://twitter.com/_Shashoo'>

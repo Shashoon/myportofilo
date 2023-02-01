@@ -1,54 +1,14 @@
 .projects-dock {
   display: flex;
   flex-wrap: wrap;
-  width: 65%;
-  justify-content: center;
+  width: 85%;
+  justify-content: space-evenly;
 }
 
 .line {
   height: 1px;
   width: 90%;
   background-color: #a7a7a7;
-}
-
-.project-card {
-  width: 400px;
-  height: 500px;
-  box-shadow: 5px 5px 20px #a7a7a7;
-  border-radius: 50px;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-.subtext {
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.project-image {
-  width: 260px;
-  height: 260px;
-  margin-top: 25px;
-  border-radius: 125px;
-}
-
-hr {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.project-link {
-  text-decoration: none;
-  color: cadetblue;
-  font-size: 22px;
-  font-weight: 500;
-}
-
-@media only screen and (max-width: 1000px) {
-  .projects-dock {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 .card {
@@ -106,4 +66,11 @@ hr {
 
 .overlay-text .button {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects-dock {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
