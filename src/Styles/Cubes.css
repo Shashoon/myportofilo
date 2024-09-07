@@ -1,6 +1,6 @@
 .skills {
   width: 90%;
-  height: 40%;
+  height: 18rem;
   position: absolute;
   transform: translate(-50%, -45%);
   left: 50%;
@@ -17,7 +17,8 @@
 }
 
 .skills h2 {
-  margin: 15px 0;
+  margin: 0;
+  font-size: 2rem;
 }
 
 .cubes-container {
@@ -45,8 +46,8 @@
   flex-direction: column;
   align-items: center;
   margin: 8px 15px;
-  width: 10vw;
-  height: 8vh;
+  width: 3rem;
+  height: 4rem;
 }
 
 .icon-container p {

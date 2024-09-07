@@ -30,6 +30,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="card">
                     <img className='card-image' src={require('../Images/crypto-dashboard.png')} />
                     <div className="card-overlay">
@@ -37,6 +38,16 @@ const Projects = () => {
                             <h3>Crypto Dashboard</h3>
                             <p>Crypto currency dashboard. includes - crypto news, coins live tracker and coins converter.</p>
                             <a href="#" className="button">View Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <img className='card-image' src={require('../Images/ronen.png')} />
+                    <div className="card-overlay">
+                        <div className="overlay-text">
+                            <h3>Landing Page</h3>
+                            <p>Landing page for mobile phone repair bussines</p>
+                            <a href="https://shashoon.github.io/ronen-landing-page/" className="button">View Here</a>
                         </div>
                     </div>
                 </div>
