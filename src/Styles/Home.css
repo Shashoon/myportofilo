@@ -1,11 +1,9 @@
 .home {
-  height: 90vh;
-  background-color: #101226;
-  color: white;
-  font-size: 40px;
+  height: 70vh;
+  padding: 70px 30px;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,11 +50,6 @@ li a:hover {
   margin-top: 85px;
 }
 
-h1 {
-  font-size: 9vw;
-  margin: 0;
-}
-
 p {
   margin: 0;
   font-size: 1rem;
@@ -99,14 +92,14 @@ p {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgb(0 0 0 / 24%);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgb(96 96 96 / 50%);
 }
 
 .social-icon a::before {
@@ -141,4 +134,53 @@ p {
 .social-icon a:hover img {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
     hue-rotate(346deg) brightness(95%) contrast(86%);
+} */
+
+/* new design */
+
+.home-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 80%;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: var(--black);
+}
+
+.social-icons {
+  display: flex;
+  padding-top: 15px;
+  gap: 0.5rem;
+}
+
+.social-item {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid var(--primary);
+
+  svg {
+    fill: var(--primary);
+    width: 50%;
+  }
+
+  &:hover {
+    border-width: 2px;
+  }
 }

@@ -3,6 +3,9 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  --primary: #226ce0;
+  --white: #fcf7ff;
+  --black: #1a181b;
 }
 
 .sub-section {
@@ -13,16 +16,6 @@ body {
   margin-top: 120px;
   padding-bottom: 100px;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-nav {
-  background-color: #101226;
-  justify-content: space-between;
 }
 
 .image-container {
@@ -38,6 +31,64 @@ nav {
 
 .hamburger {
   display: none;
+}
+
+/* new desing */
+
+h1,
+p {
+  margin: 0;
+}
+
+.primary-btn {
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 300;
+  border-radius: 1rem;
+  padding: 5px 20px;
+  text-decoration: none;
+  border: 1px solid rgb(26 26 26 / 20%);
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 40%);
+
+  &:hover {
+    font-weight: 500;
+    border: 1px solid rgb(26 26 26 / 50%);
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black);
+  padding: 30px;
+}
+
+.nav-title {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.navbar-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-item {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.navbar-item:hover {
+  color: var(--primary);
+}
+
+.highlight-text {
+  color: var(--primary);
 }
 
 @media only screen and (max-width: 1000px) {
