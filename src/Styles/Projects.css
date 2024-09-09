@@ -1,76 +1,84 @@
-.projects-dock {
-  display: flex;
-  flex-wrap: wrap;
-  width: 85%;
-  justify-content: space-evenly;
+.projects-section {
+  padding: 80px;
 }
 
-.line {
-  height: 1px;
-  width: 90%;
-  background-color: #a7a7a7;
-}
-
-.card {
-  position: relative;
-  transition: all 0.5s ease-in;
-  margin-top: 15px;
-  margin-left: 15px;
-}
-
-.card-image {
-  display: block;
-  width: 300px;
-  height: 300px;
-  border-radius: 50px;
-}
-
-.card-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
+.mySwiper {
   width: 100%;
-  opacity: 0;
-  visibility: none;
-  transition: 0.5s ease;
-  background-color: #505050ad;
-  border-radius: 50px;
-  backdrop-filter: blur(5px);
+  padding: 40px 0;
 }
 
-.card:hover .card-overlay {
+.carousel-slide {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0.5;
+  transform: scale(0.85);
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.swiper-slide {
+  width: 500px;
+  height: 600px;
+  border-radius: 15px;
+  border: 1px solid rgb(26 26 26 / 20%);
+  background-color: var(--white);
+
+  img {
+    border-radius: 15px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+}
+
+.swiper-slide-active {
   opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+  z-index: 10;
 }
 
-.overlay-text {
-  color: white;
-  font-size: 20px;
+.slide-text {
+  width: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 90%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  left: 0;
+  bottom: 0;
+  padding: 30px 30px 50px;
+  box-sizing: border-box;
+  border-radius: 0 0 15px 15px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: start;
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--black);
+  }
 }
 
-.overlay-text p {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 300;
+.slide-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.overlay-text .button {
-  margin-top: 10px;
-}
+.slide-icon {
+  display: flex;
+  gap: 10px;
 
-@media only screen and (max-width: 1000px) {
-  .projects-dock {
-    display: flex;
-    flex-wrap: wrap;
+  a {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    color: currentColor;
+
+    &:hover {
+      background-color: #d3d3d3b0;
+      border-radius: 50%;
+    }
   }
 }

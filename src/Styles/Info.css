@@ -1,15 +1,17 @@
-.section {
+.info-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 80px;
+  gap: 100px;
 }
 
 .info {
-  padding-top: 30vh;
+  padding-top: 50px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2rem;
   text-align: center;
 }
 

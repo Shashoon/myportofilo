@@ -1,149 +1,23 @@
 .home {
   height: 70vh;
-  padding: 70px 30px;
+  padding: 70px;
 }
-
-/* nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.image-container {
-  display: flex;
-  align-items: center;
-}
-
-.image {
-  width: 200px;
-  border-radius: 200px;
-  padding: 80px;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  width: 500px;
-  justify-content: space-around;
-  font-size: 30px;
-  padding-right: 1vw;
-}
-
-li {
-  text-decoration: none;
-}
-
-li a:hover {
-  color: rgb(182 187 45);
-}
-
-.titles-area {
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.titles {
-  margin-left: 4vw;
-  margin-bottom: 200px;
-  margin-top: 85px;
-}
-
-p {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.titles p {
-  color: rgb(193 198 45 / 97%);
-}
-
-.button {
-  background-color: rgb(43 106 238 / 75%);
-  border-radius: 100px;
-  box-shadow: rgb(44 81 187 / 20%) 0 -25px 18px -14px inset,
-    rgb(44 99 187 / 15%) 0 1px 2px, rgb(44 46 187 / 15%) 0 2px 4px,
-    rgb(44 59 187 / 15%) 0 4px 8px, rgb(44 187 178 / 15%) 0 8px 16px,
-    rgb(44 187 99 / 15%) 0 16px 32px;
-  cursor: pointer;
-  display: inline-block;
-  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
-  padding: 7px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 0;
-  font-size: 1rem;
-  user-select: none;
-}
-
-.button:hover {
-  background-color: rgb(255 255 255 / 89%);
-  color: #464646;
-}
-
-.social-icon {
-  display: flex;
-  padding-top: 15px;
-}
-
-.social-icon a {
-  width: 42px;
-  height: 42px;
-  background: rgb(0 0 0 / 24%);
-  display: inline-flex;
-  border-radius: 50%;
-  margin-right: 6px;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  border: 1px solid rgb(96 96 96 / 50%);
-}
-
-.social-icon a::before {
-  content: "";
-  width: 42px;
-  height: 42px;
-  position: absolute;
-  background-color: #ffffff;
-  border-radius: 50%;
-  transform: scale(0);
-  transition: 0.3s ease-in-out;
-}
-
-.social-icon a:hover::before {
-  transform: scale(1);
-}
-
-.social-icon a:hover {
-  color: black;
-}
-
-.social-icon a svg {
-  width: 60%;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
-}
-
-.social-icon a::before svg {
-  color: black;
-}
-
-.social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
-    hue-rotate(346deg) brightness(95%) contrast(86%);
-} */
-
-/* new design */
 
 .home-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-direction: row;
+  height: 80%;
+}
+
+.content-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
   flex-direction: column;
-  min-height: 80%;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .home-content {
@@ -173,14 +47,40 @@ p {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid var(--primary);
+  border: 2px solid var(--primary);
 
   svg {
     fill: var(--primary);
-    width: 50%;
+    width: 60%;
   }
 
   &:hover {
-    border-width: 2px;
+    border-width: 3px;
   }
+}
+
+.skills-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  border: 5px solid var(--primary);
+  background-image: url("../Images/Programming-amico.png");
+  background-size: cover;
+}
+
+.skills-item {
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
 }

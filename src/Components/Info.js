@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../Styles/Info.css';
 
 const Info = () => {
 
 
     return (
-        <section className='section' id="about">
+        <section className='info-section' id="about">
             <div className='info'>
                 <h2>About Me</h2>
                 <p>
@@ -20,7 +20,8 @@ const Info = () => {
                     In fact, everything related to technology is my cup of tea.
                 </p>
             </div>
-        </section>);
+        </section>
+    );
 
 }
 

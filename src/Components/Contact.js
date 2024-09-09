@@ -11,7 +11,7 @@ const Contact = () => {
                 <br />
                 <input type="text" name="message" placeholder='Write your message..' required />
                 <br />
-                <button type="submit" className='button'>Send</button>
+                <button type="submit" className='primary-btn'>Send</button>
             </form>
             <div className='social-buttons'>
                 <div><a className='social' href='https://twitter.com/_Shashoo'>
