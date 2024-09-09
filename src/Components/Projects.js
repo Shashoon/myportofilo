@@ -25,7 +25,6 @@ const Projects = () => {
                 }}
                 loop={true}
                 autoplay={{ delay: 0, disableOnInteraction: false, }}
-                pagination={{ clickable: true }}
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
             >
