@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportofilo/static/css/main.349dda26.css",
-    "main.js": "/myportofilo/static/js/main.67eca76d.js",
+    "main.css": "/myportofilo/static/css/main.151b06a7.css",
+    "main.js": "/myportofilo/static/js/main.6ed60abd.js",
     "static/media/Programming-amico.png": "/myportofilo/static/media/Programming-amico.67ca1f38f1b611d91152.png",
     "static/media/rootix.png": "/myportofilo/static/media/rootix.4f3352d3862c90ad84a7.png",
     "static/media/crypto-dashboard.png": "/myportofilo/static/media/crypto-dashboard.8c33b61e9f196fcee3f7.png",
@@ -9,11 +9,11 @@
     "static/media/beno.png": "/myportofilo/static/media/beno.748281e91186c9d1a9dc.png",
     "static/media/wordle.png": "/myportofilo/static/media/wordle.eb5e1611b8b9631a434f.png",
     "index.html": "/myportofilo/index.html",
-    "main.349dda26.css.map": "/myportofilo/static/css/main.349dda26.css.map",
-    "main.67eca76d.js.map": "/myportofilo/static/js/main.67eca76d.js.map"
+    "main.151b06a7.css.map": "/myportofilo/static/css/main.151b06a7.css.map",
+    "main.6ed60abd.js.map": "/myportofilo/static/js/main.6ed60abd.js.map"
   },
   "entrypoints": [
-    "static/css/main.349dda26.css",
-    "static/js/main.67eca76d.js"
+    "static/css/main.151b06a7.css",
+    "static/js/main.6ed60abd.js"
   ]
 }
