@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/Counter.css';
+import Skills from './Skills';
 
 const Counter = () => {
     return (
@@ -21,8 +22,9 @@ const Counter = () => {
                     <div className='item-digits'>100+</div>
                     <div className='item-text'>Code commits</div>
                 </div>
-
             </div>
+
+            <Skills />
         </section>
     )
 }

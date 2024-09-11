@@ -1,11 +1,14 @@
 import React from 'react';
 import '../Styles/Info.css';
+import Skills from './Skills';
+import Counter from './Counter';
 
 const Info = () => {
 
 
     return (
         <section className='info-section' id="about">
+            <Counter />
             <div className='info'>
                 <h2>About Me</h2>
                 <p>

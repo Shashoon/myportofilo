@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 import '../Styles/Projects.css';
 import projectsData from '../Data/projects-data';
 
@@ -24,8 +24,8 @@ const Projects = () => {
                     slideShadows: false,
                 }}
                 loop={true}
-                autoplay={{ delay: 0, disableOnInteraction: false, }}
-                modules={[EffectCoverflow, Pagination]}
+                autoplay={{ delay: 5000, pauseOnMouseEnter: true }}
+                modules={[EffectCoverflow, Pagination, Autoplay]}
                 className="mySwiper"
             >
                 {

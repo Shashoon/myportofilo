@@ -78,9 +78,3 @@
   background-image: url("../Images/Programming-amico.png");
   background-size: cover;
 }
-
-.skills-item {
-  padding: 5px;
-  border-radius: 50%;
-  border: 1px solid var(--primary);
-}
