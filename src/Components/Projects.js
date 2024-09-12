@@ -10,6 +10,7 @@ import projectsData from '../Data/projects-data';
 const Projects = () => {
     return (
         <section className='projects-section' id='projects'>
+            <h1 className='project-title'>Projects</h1>
             <Swiper
                 effect="coverflow"
                 grabCursor={true}

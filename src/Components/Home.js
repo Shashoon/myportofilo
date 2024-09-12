@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Styles/Home.css';
-import Cubes from './Cubes';
 import Counter from './Counter';
 
 const Home = () => {
@@ -34,7 +33,7 @@ const Home = () => {
 
             </div>
 
-            {/* <Counter /> */}
+            <Counter />
 
         </section>
     )

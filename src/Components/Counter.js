@@ -23,8 +23,6 @@ const Counter = () => {
                     <div className='item-text'>Code commits</div>
                 </div>
             </div>
-
-            <Skills />
         </section>
     )
 }

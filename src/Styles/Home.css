@@ -75,6 +75,7 @@
   height: 80%;
   min-width: 350px;
   min-height: 350px;
+  max-width: 600px;
   border-radius: 50%;
   border: 5px solid var(--primary);
   background-image: url("../Images/Programming-amico.png");

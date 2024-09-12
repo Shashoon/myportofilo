@@ -2,6 +2,12 @@
   padding: 80px;
 }
 
+.project-title {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 .mySwiper {
   width: 100%;
   padding: 40px 0;
@@ -16,7 +22,6 @@
 
   .swiper-slide {
     border-radius: 15px;
-    /* box-shadow: rgb(0 0 0 / 36%) 0px 10px 15px 5px; */
     background-color: var(--white);
 
     img {
@@ -32,6 +37,7 @@
     transform: scale(1);
     filter: blur(0);
     z-index: 10;
+    border-radius: 15px;
   }
 
   .slide-text {
