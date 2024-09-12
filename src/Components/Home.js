@@ -28,8 +28,8 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='skills-container'>
-                    <div className='skills-circle'></div>
+                <div className='hero-container'>
+                    <div className='hero-circle'></div>
                 </div>
 
             </div>

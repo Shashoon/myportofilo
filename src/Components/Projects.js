@@ -8,24 +8,39 @@ import '../Styles/Projects.css';
 import projectsData from '../Data/projects-data';
 
 const Projects = () => {
-
     return (
         <section className='projects-section' id='projects'>
             <Swiper
                 effect="coverflow"
                 grabCursor={true}
                 centeredSlides={true}
-                slidesPerView="3"
                 coverflowEffect={{
                     rotate: 0,
                     stretch: 0,
                     depth: 200,
                     modifier: 1,
-                    slideShadows: false,
+                    slideShadows: true,
                 }}
                 loop={true}
                 autoplay={{ delay: 5000, pauseOnMouseEnter: true }}
                 modules={[EffectCoverflow, Pagination, Autoplay]}
+                breakpoints={{
+                    425: {
+                        slidesPerView: 1,
+                        coverflowEffect: {
+                            rotate: 0,
+                            stretch: 0,
+                            depth: 0,
+                            modifier: 1,
+                            slideShadows: true,
+                        }
+                    }, 768: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    },
+                }}
                 className="mySwiper"
             >
                 {

@@ -32,3 +32,25 @@
   font-weight: 500;
   line-height: 1rem;
 }
+
+@media only screen and (max-width: 425px) {
+  .box-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .counter-item {
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .item-digits {
+    font-size: 2rem;
+  }
+  .item-text {
+    font-size: 0.8rem;
+  }
+}

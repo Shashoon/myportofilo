@@ -8,9 +8,7 @@ const Contact = () => {
             <h2>Contact Me</h2>
             <form action="https://formsubmit.co/Shashoonn@gmail.com" method="POST">
                 <input type="email" name="email" placeholder='Your Email' required />
-                <br />
-                <input type="text" name="message" placeholder='Write your message..' required />
-                <br />
+                <input type="text" role='textbox' name="message" placeholder='Write your message..' required />
                 <button type="submit" className='primary-btn'>Send</button>
             </form>
             <div className='social-buttons'>
